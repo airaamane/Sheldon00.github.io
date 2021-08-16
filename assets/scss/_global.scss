@@ -218,10 +218,14 @@ $transition: all 0.3s ease-in-out;
   outline: none;
   color: #fff;
 }
+a.visited {
+  color: #fff !important;
+}
 .btn-common{
   background-color: $preset;
   position: relative;
   z-index: 1;
+  color: #fff !important;
   &:hover{
     color: #fff;
     background: #F50057;
